@@ -36,4 +36,3 @@
 
 ### Results
 Using Github Actions, I have passed make format, make lint, and make test as shown below.
-<img width="1154" alt="Screenshot 2023-09-12 at 5 59 55 PM" src="https://github.com/nogibjj/Jaxon-Yue-IDS-706-Mini-Project-3/assets/70416390/71c80522-d698-4d17-8e95-acdd7be03671">
