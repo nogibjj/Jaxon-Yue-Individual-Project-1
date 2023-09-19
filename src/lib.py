@@ -30,7 +30,7 @@ def plot_hist(df, col, jupyter = False):
         hist_path = 'output/visualization_histogram.png'
         plt.savefig(hist_path)
         
-def plot_growth(df, col, jupyter = False):
+def plot_growth(df, jupyter = False):
     # Find the mean for every year's data
     mean_2000 = np.mean(df['2000'])
     mean_2010 = np.mean(df['2010'])

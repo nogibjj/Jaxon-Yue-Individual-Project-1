@@ -15,7 +15,7 @@ def run_desc_stat(df, col):
 
 def run_visualizations(df, col):
     lib.plot_hist(df, col)
-    lib.plot_growth(df, col)
+    lib.plot_growth(df)
 
 if __name__ == "__main__":
    df = run_read_data("Development of Average Annual Wages.csv")
