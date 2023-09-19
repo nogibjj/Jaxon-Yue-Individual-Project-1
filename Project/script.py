@@ -6,10 +6,10 @@ def run_read_data(file_path):
 
 def run_desc_stat(df, col):
     stats = {
-        'Target Column: ': col + " Average Annual Wages in the World",
-        'Mean: ': lib.return_mean(df, col),
-        'Median: ': lib.return_median(df, col),
-        "Standard Deviation: ": lib.return_sd(df, col),
+        'Target Column': col + " Average Annual Wages in the World",
+        'Mean': lib.return_mean(df, col),
+        'Median': lib.return_median(df, col),
+        "Standard Deviation": lib.return_sd(df, col),
     }
     return stats
 

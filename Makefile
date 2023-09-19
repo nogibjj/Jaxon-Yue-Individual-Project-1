@@ -3,13 +3,16 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=main  test_*.py
+	python -m pytest --nbval Project/*.ipynb
+	python -m pytest -vv --cov=main  Project/test_*.py
 
 format:	
-	black *.py 
+	black Project/*.py
+	nbqa black Project/*.ipynb  
 
 lint:
-	ruff check *.py 
+	nbqa ruff Project/*.ipynb
+	ruff check Project/*.py 
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
