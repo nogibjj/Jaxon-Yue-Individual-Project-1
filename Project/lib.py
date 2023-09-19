@@ -55,15 +55,3 @@ def plot_growth(df, jupyter=False):
     if not jupyter:
         growth_path = "output/visualization_growth.png"
         plt.savefig(growth_path)
-
-
-if __name__ == "__main__":
-    df = pd.read_csv("Development of Average Annual Wages.csv")
-    col = "2022"
-
-    print("Target Column: ", "col")
-    print("Mean: ", return_mean(df, col))
-    print("Median: ", return_median(df, col))
-    print("Standard Deviation: ", return_sd(df, col))
-
-    plot_hist(df, col, jupyter=True)

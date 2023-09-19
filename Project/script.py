@@ -21,9 +21,12 @@ def run_visualizations(df, col):
     lib.plot_growth(df)
 
 
-if __name__ == "__main__":
+def main():
     df = run_read_data("Development of Average Annual Wages.csv")
     col = "2022"
-
     run_desc_stat(df, col)
     run_visualizations(df, col)
+
+
+if __name__ == "__main__":
+    main()

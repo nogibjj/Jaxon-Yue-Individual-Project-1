@@ -4,7 +4,7 @@ install:
 
 test:
 	python -m pytest --nbval Project/*.ipynb
-	python -m pytest -vv --cov=main  Project/test_*.py
+	python -m pytest -vv --cov=lib --cov=script --cov-report term-missing Project/test_*.py
 
 format:	
 	black Project/*.py
