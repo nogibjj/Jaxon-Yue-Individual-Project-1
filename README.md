@@ -5,6 +5,7 @@
 [![Test](https://github.com/nogibjj/Jaxon-Yue-Individual-Project-1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Jaxon-Yue-Individual-Project-1/actions/workflows/test.yml)
 
 ### Video Walkthrough
+https://youtu.be/y9Qpn9C2UHI
 
 ### Overview
 * This repository includes the components for Individual Project 1 - Continuous Integration using GitHub Actions of Python Data Science Project.
