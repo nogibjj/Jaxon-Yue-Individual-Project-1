@@ -13,7 +13,7 @@ https://youtu.be/y9Qpn9C2UHI
 ### Goal
 * This project aims at implementing Continuous Integration (CI) using Github Actions for typical Data Science Exploratory Data Analysis projects.
 * The EDA process includes getting essential statistics such as **mean**, **median**, and **standard deviation**, as well as data visualizations of a **histogram** and on the **growth of the average annual wages**.
-* This repo also contains respective **tests** to check whether the statistics calculated in the EDA process **match with the real data points**.
+* This repo also contains respective **tests** to check whether the statistics calculated in the EDA process **match with the real data points**, and test if the functions I wrote can run properly.
 
 ### Project Structure:
 - **`Jupyter Notebook (Project/notebook.ipynb)`**
